@@ -1,0 +1,28 @@
+# R session files
+.Rhistory
+.RData
+.Rproj.user/
+.Ruserdata
+.httr-oauth
+Rplots.pdf
+
+# Secrets — keep API keys in .Renviron, never commit it
+.Renviron
+
+# Regenerable analysis outputs (keep folder placeholders)
+output/**
+!output/**/
+!output/**/.gitkeep
+data/processed/**
+!data/processed/.gitkeep
+*.html
+
+# renv local library (renv.lock IS committed)
+renv/library/
+renv/staging/
+
+# OS / tool noise
+.DS_Store
+Thumbs.db
+.quarto
+.Rproj.user
