@@ -1,4 +1,4 @@
-# Wai-Lee_AcuteHeatStress
+# Leong-Lee_AcuteHeatStress
 
 Description:
 This repository document the analysis for acute heat-stress assay (ED50) of four coral species and its relationship with
@@ -11,7 +11,7 @@ field bleaching and mortality during the 2024 marine heatwave.
 ```
 Wai-Lee_AcuteHeatStress/
 ├── README.md
-├── Wai-Lee_AcuteHeatStress.Rproj
+├── Leong-Lee_AcuteHeatStress.Rproj
 ├── data/
 │   ├── raw/          # original data, never edited
 │   └── processed/    # outputs written by the scripts
@@ -24,7 +24,7 @@ Wai-Lee_AcuteHeatStress/
 
 ## How to run
 
-1. Open `Wai-Lee_AcuteHeatStress.Rproj` in RStudio.
+1. Open `Leong-Lee_AcuteHeatStress.Rproj` in RStudio.
 2. `renv::restore()` to install the pinned package versions.
 3. Run the files in `analysis/` in numeric order.
 
